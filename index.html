@@ -1,89 +1,122 @@
+
 <!DOCTYPE html>
-  <html>
-    <head>
-      <!--Import Google Icon Font-->
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <!--Import materialize.css-->
-      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-      <link rel="stylesheet" type="text/css" href="main.css">
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+  <link rel="stylesheet" type="text/css" href="main.css">
 
-      <!--Let browser know website is optimized for mobile-->
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    </head>
+<!-- MOBILE RESPONSIVE -->
 
-    <body>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
 
-        <div class="card-panel #263238 blue-grey darken-4">
+<body>
 
+<!-- BACKGROUND COLOR -->
 
- <nav>
-    <div class="nav-wrapper">
+  <div class="card-panel #263238 blue-grey darken-4">
+
+<!-- CAROUSEL -->
+
+  <div class="carousel">
+    <a class="carousel-item" href="#one!"><img src="https://via.placeholder.com/100x100""></a>
+    <a class="carousel-item" href="#two!"><img src="https://via.placeholder.com/100x100""></a>
+    <a class="carousel-item" href="#three!"><img src="https://via.placeholder.com/100x100""></a>
+    <a class="carousel-item" href="#four!"><img src="https://via.placeholder.com/100x100""></a>
+    <a class="carousel-item" href="#five!"><img src="https://via.placeholder.com/100x100""></a>
+  </div>
+
+ <!-- NAV BAR -->
+
+   <nav>
+    <div class="navbar-fixed">
       <a href="#" class="brand-logo center">Logo</a>
       <ul id="nav-mobile" class="left hide-on-med-and-down">
       </ul>
     </div>
   </nav>
 
-       
+<!-- GALLERY -->
 
   <div class="row">
 
-  <div class="col m3">
-    <div class="card">
-      <div class="card-image">
-        <img src="https://via.placeholder.com/100x100">
-      </div>
-      <div class="card-content">
-        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="col m3">
-    <div class="card">
-      <div class="card-image">
-        <img src="https://via.placeholder.com/100x100">
-         </div>
-      <div class="card-content">
-        <h1>This is a title</h1>
-        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+    <div class="col m3">
+      <div class="card">
+        <div class="card-image">
+          <img src="https://via.placeholder.com/100x100">
+        </div>
+        <div class="card-content">
+          <h6>The Fruit of the Kings</h6>
+          <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+        </div>
       </div>
     </div>
-  </div>
-
-  <div class="col m3">
-    <div class="card">
-      <div class="card-image">
-        <img src="https://via.placeholder.com/100x100">
-         </div>
-      <div class="card-content">
-        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-      </div>
-    </div>
-  </div>
 
     <div class="col m3">
-    <div class="card">
-      <div class="card-image">
-        <img src="https://via.placeholder.com/100x100">
-         </div>
-      <div class="card-content">
-        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+      <div class="card">
+        <div class="card-image">
+          <img src="https://via.placeholder.com/100x100">
+        </div>
+        <div class="card-content">
+          <h6>Watermelon Snow</h6>
+          <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+        </div>
       </div>
     </div>
+
+    <div class="col m3">
+      <div class="card">
+        <div class="card-image">
+          <img src="https://via.placeholder.com/100x100">
+        </div>
+        <div class="card-content">
+          <h6>The Fruit of the Kings</h6>
+          <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col m3">
+      <div class="card">
+        <div class="card-image">
+          <img src="https://via.placeholder.com/100x100">
+        </div>
+        <div class="card-content">
+          <h6>Watermelon Snow</h6>
+          <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+        </div>
+      </div>
+    </div>
+
   </div>
 
 
+<!-- MODAL -->
 
+  <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a>
+
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>Modal Header</h4>
+      <p>A bunch of text</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+  </div>
 </div>
 
+<!-- SCRIPT TAGS -->
 
+<script
+src="https://code.jquery.com/jquery-3.3.1.js"
+integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+crossorigin="anonymous"></script>
 
+<script src="main.js"></script>
 
-</div>
-      <!--JavaScript at end of body for optimized loading-->
-      <script src="main.js"></script>
-      <script type="text/javascript" src="js/materialize.min.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
 
-    </body>
-  </html>
+</body>
+</html>
